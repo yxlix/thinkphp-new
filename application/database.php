@@ -17,7 +17,7 @@ return [
     // 数据库名
     'database'        => 'new',
     // 用户名
-    'username'        => 'root',
+    'username'        => 'new',
     // 密码
     'password'        => 'root',
     // 端口
