@@ -7,7 +7,7 @@ class AdminUser extends Model{
      */
   public function add($data){
       if (is_array($data)){
-        $this->createTime()
+        $this->createTime();
       }
   }
 
