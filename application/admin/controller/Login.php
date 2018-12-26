@@ -31,6 +31,9 @@ class Login extends Base
         }
 
         $data = input('post.');
+
+
+
         if (!captcha_check($data['verifyCode'])){
             $this->error('验证码不正确');
         }
@@ -48,6 +51,7 @@ class Login extends Base
             'last_login_time' => time(),
             'last_login_ip' => request()->ip(),
         ];
+
         try{
             model('AdminUser') ->save($udata,['id' => $user->id]);
         }catch(\Exception $e){

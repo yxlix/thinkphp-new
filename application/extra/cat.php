@@ -1,12 +1,12 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: L
- * Date: 2018/12/24
- * Time: 23:13
+ * User: xx
+ * Date: 2018/12/20
+ * Time: 15:24
  */
-return [
-    'lists' =>[
+return[
+    'lists' => [
         1 => '综艺',
         2 => '明星',
         3 => '韩娱',

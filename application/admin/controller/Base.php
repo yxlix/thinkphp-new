@@ -28,7 +28,6 @@ class Base extends Controller
     public function isLogin()
     {
         $user = session(config('admin.session_user', '', config('admin.session_user_scope')));
-
         if ($user && $user['adminuser']->id) {
             return true;
         }
