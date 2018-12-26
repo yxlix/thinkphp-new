@@ -2,7 +2,7 @@
  * 通用 from 表单中提交数据的方法
  * @param form
  */
-function app_save (form) {
+function singwaapp_save (form) {
     var data = $(form).serialize();
     // console.log(data);
 
